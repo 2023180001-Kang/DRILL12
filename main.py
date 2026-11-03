@@ -3,12 +3,9 @@ from boy import Boy
 from grass import Grass
 from fontgrass import fontgrass
 
-
-
 import game_world # 게임 월드 모듈 임포트
 
 # Game object class here
-
 
 def handle_events():
     global running
