@@ -33,13 +33,10 @@ def reset_world():
 
 
     grass = Grass()
-    game_world.add_object(grass)
+    game_world.add_object(grass, 0)
 
     font = fontgrass()
     game_world.add_object(font, 2)
-
-
-
 
 
 
